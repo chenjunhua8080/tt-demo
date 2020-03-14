@@ -1,0 +1,101 @@
+{
+    "pages": [
+        "pages/example/index",
+        "pages/API/index",
+
+        "pages/example/button/button",
+        "pages/example/checkbox/checkbox",
+        "pages/example/radio/radio",
+        "pages/example/form/form",
+        "pages/example/input/input",
+        "pages/example/label/label",
+        "pages/example/icon/icon",
+        "pages/example/picker/picker",
+        "pages/example/picker-view/picker-view",
+        "pages/example/switch/switch",
+        "pages/example/textarea/textarea",
+
+        "pages/example/text/text",
+        "pages/example/progress/progress",
+
+        "pages/example/view/view",
+        "pages/example/scroll-view/scroll-view",
+        "pages/example/swiper/swiper",
+        "pages/example/webview/webview",
+
+        "pages/example/image/image",
+        "pages/example/video/video",
+        "pages/example/canvas/canvas",
+        
+
+       
+        "pages/API/get-user-info/get-user-info",
+        "pages/API/share/share",
+        "pages/API/choose-adress/choose-adress",
+
+        "pages/API/request/request",
+        "pages/API/web-socket/web-socket",
+        "pages/API/upload-file/upload-file",
+        "pages/API/download-file/download-file",
+
+        "pages/API/image/image",
+        "pages/API/previewImage/previewImage",
+        "pages/API/voice/voice",
+        "pages/API/video/video",
+        "pages/API/inneraudio/inneraudio",
+
+        "pages/API/set-navigation-bar-title/set-navigation-bar-title",
+        "pages/API/navigator/navigator",
+        "pages/API/pull-down-refresh/pull-down-refresh",
+        "pages/API/animation/animation",
+        "pages/API/action-sheet/action-sheet",
+        "pages/API/modal/modal",
+        "pages/API/toast/toast",
+        "pages/API/login/login",
+
+        "pages/API/get-network-type/get-network-type",
+        "pages/API/get-system-info/get-system-info",
+        "pages/API/accelerometer/accelerometer",
+        "pages/API/make-phone-call/make-phone-call",
+        "pages/API/scan-code/scan-code",
+        "pages/API/get-clipboard-data/get-clipboard-data",
+        "pages/API/vibrate/vibrate",
+
+
+        "pages/API/get-location/get-location",
+        "pages/API/open-location/open-location",
+
+
+        "pages/API/storage/storage"
+    ],
+    "window": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "小程序能力展示",
+      "navigationBarBackgroundColor": "#f8f8f8",
+      "backgroundColor": "#f8f8f8"
+    },
+    "tabBar": {
+      "color": "#505050",
+      "selectedColor": "#F85959",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [{
+        "pagePath": "pages/example/index",
+        "iconPath": "image/category/tab_component.png",
+        "selectedIconPath": "image/category/tab_component_selected.png",
+        "text": "组件"
+      }, {
+        "pagePath": "pages/API/index",
+        "iconPath": "image/category/tab_api.png",
+        "selectedIconPath": "image/category/tab_api_selected.png",
+        "text": "接口"
+      }]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+  }

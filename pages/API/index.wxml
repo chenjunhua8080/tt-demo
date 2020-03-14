@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="header header-center">
+        <image class="index-logo" src="../../image/category/api_logo.png"></image>
+        <view class="index-desc">以下将演示小程序接口能力，具体属性参数详见小程序开发文档。</view>
+    </view>
+
+    <view class="body body-space">
+        <view class="category-list">
+            <view class="category-list__item {{item.open ? 'category-list__item--open': ''}}" wx:for="{{list}}">
+                <view class="ttui-flex  item-title"  id="{{item.id}}" bindtap="toggleSwitch">
+                    <view class="ttui-flex__item">{{item.name}}</view>
+                    <image class="item-list__img" src="../../image/category/arrow.png"></image>
+                </view>
+                <view class="item-list">
+                    <view wx:for="{{item.pages}}" wx:for-item="page" class="item-list__page" >
+                        <navigator url="{{page.url}}" class="item-navigator">
+                            <view class="ttui-flex navigator-wraper">
+                                <view class="ttui-flex__item">{{page.zh}}</view>
+                                <image class="item-list__img" src="../../image/category/setting_arrow.png"></image>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="footer">
+    </view>
+</view>
